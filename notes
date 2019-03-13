@@ -1,0 +1,14 @@
+Notes:
+
+Configure kernel for that assignment:
+Goto src/base/
+
+Configuring the entire OS/161 source tree by running configure in the root of the source directory
+
+Configuring the kernel by running config in the kern/conf subdirectory
+
+Building the dependencies by running bmake depend in the compilation subdirectory
+
+Building the kernel by running bmake
+
+Installing the kernel by running bmake install
