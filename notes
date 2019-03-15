@@ -1,14 +1,15 @@
 Notes:
 
-Configure kernel for that assignment:
-Goto src/base/
+Basic steps to run different kernels:
 
-Configuring the entire OS/161 source tree by running configure in the root of the source directory
+1. Configuring the kernel by running config in the kern/conf subdirectory
+	>kern/conf/DUMBVM $: ./config DUMBVM
 
-Configuring the kernel by running config in the kern/conf subdirectory
+2. In /kern/compile/DUMBVM 
+	A) Building the dependencies by running bmake depend in the compilation subdirectory
+		>$: bmake depend
+   	B) Building the kernel by running bmake
+   		>$: bmake
+	C) Installing the kernel by running 
+		>$: bmake install
 
-Building the dependencies by running bmake depend in the compilation subdirectory
-
-Building the kernel by running bmake
-
-Installing the kernel by running bmake install
