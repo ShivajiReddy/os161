@@ -13,3 +13,4 @@ Basic steps to run different kernels:
 	C) Installing the kernel by running 
 		>$: bmake install
 
+If kernel is configured succesfully, the above steps will not throw any errors
