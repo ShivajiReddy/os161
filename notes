@@ -3,7 +3,7 @@ Notes:
 Basic steps to run different kernels:
 
 1. Configuring the kernel by running config in the kern/conf subdirectory
-	>kern/conf/DUMBVM $: ./config DUMBVM
+	>kern/conf $: ./config DUMBVM
 
 2. In /kern/compile/DUMBVM 
 	A) Building the dependencies by running bmake depend in the compilation subdirectory
