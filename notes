@@ -1,5 +1,4 @@
 Notes:
-
 Basic steps to run different kernels:
 
 1. Configuring the kernel by running config in the kern/conf subdirectory
