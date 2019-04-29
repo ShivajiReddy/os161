@@ -926,3 +926,4 @@ menu(char *args)
 		menu_execute(buf, 0);
 	}
 }
+
